@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron TCP Chat</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+    <script src="src/renderer.js"></script>
+    <h1>Electron TCP Chat</h1>
+    <div class="container">
+        <label for="port">Porta do Servidor:</label>
+        <input type="text" id="port" name="port">
+        <button onclick="startServer()">Iniciar Servidor</button>
+        <div id="chat"></div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
