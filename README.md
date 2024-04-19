@@ -21,3 +21,11 @@
   <li>Deverá ser exibido na tela do chat as informações dos usuários que realizaram login, bem como as mensagens enviadas e recebidas e seus respectivos horários;</li>
   <li>Quando um usuário se desconectar do chat, os demais usuários conectados deverão ser avisados.</li>
 </ul>
+
+<br><br>
+
+<h2>Construção da aplicação</h2>
+<ul>
+  <li>A construção da aplicação vai ser realizada em node e usando o framework electron para criar aplicações.</li>
+</ul>
+
